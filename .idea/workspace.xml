@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fb2b6a8f-fb45-49bd-9e70-e71a64fb1a96" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+        <option value="spring-beans.schema" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="A:\ShuyunWork\maven\apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="A:\ShuyunWork\maven\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="1fLHqddE5bIlyd0KabLGXzBbqAP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="cn.redis.adapter.Cache" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="A:\ShuyunWork\Word_CodeResp\WorkDemo" />
+      <recent name="A:\ShuyunWork\Word_CodeResp\WorkDemo\src\main\java\cn\combination\mode\vo" />
+      <recent name="A:\ShuyunWork\Word_CodeResp\WorkDemo\src\main\java\cn\coupon\factory\CouponService" />
+      <recent name="A:\ShuyunWork\Word_CodeResp\WorkDemo\src\test\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.demo.controller" />
+      <recent name="com.example.demo.scope" />
+      <recent name="com.example.demo.service" />
+      <recent name="cn.combination.mode" />
+      <recent name="cn.lazy.local.local_test.config" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="invokeClassAndMethod" />
+      <command value="RedisTestApplication" />
+      <command value="SpringDemoApplication" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.StreamDemo">
+    <configuration name="LocalTestApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.lazy.local.local_test.LocalTestApplication" />
+      <module name="Cache_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.lazy.local.local_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.SpringDemoApplication" />
+      <module name="spring_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StreamDemo" />
+      <module name="WorkDemo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToMixMobileApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.ToMixMobileApplication" />
+      <module name="to_mix_mobile" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="WorkDemo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StreamDemo" />
+        <item itemvalue="Application.ToMixMobileApplication" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.SpringDemoApplication" />
+        <item itemvalue="Application.LocalTestApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb2b6a8f-fb45-49bd-9e70-e71a64fb1a96" name="Default Changelist" comment="" />
+      <created>1595990644188</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595990644188</updated>
+      <workItem from="1595990646543" duration="10198000" />
+      <workItem from="1596162436872" duration="2068000" />
+      <workItem from="1596417581649" duration="2571000" />
+      <workItem from="1597133521498" duration="598000" />
+      <workItem from="1597280674895" duration="1673000" />
+      <workItem from="1597626353868" duration="647000" />
+      <workItem from="1597817508784" duration="1234000" />
+      <workItem from="1601342345302" duration="8056000" />
+      <workItem from="1601435406830" duration="1549000" />
+      <workItem from="1601603678869" duration="2000" />
+      <workItem from="1602044891935" duration="606000" />
+      <workItem from="1602205792426" duration="1458000" />
+      <workItem from="1602312417491" duration="884000" />
+      <workItem from="1602315788479" duration="1209000" />
+      <workItem from="1602468858277" duration="9221000" />
+      <workItem from="1602742831300" duration="4136000" />
+      <workItem from="1602810858321" duration="54000" />
+      <workItem from="1603095555354" duration="680000" />
+      <workItem from="1603437562912" duration="2459000" />
+      <workItem from="1603701941525" duration="2358000" />
+      <workItem from="1605167168518" duration="4369000" />
+      <workItem from="1605230265150" duration="6581000" />
+      <workItem from="1606225561421" duration="1849000" />
+      <workItem from="1606891344465" duration="1428000" />
+      <workItem from="1606959593966" duration="2831000" />
+      <workItem from="1607047753178" duration="5457000" />
+      <workItem from="1607304101141" duration="861000" />
+      <workItem from="1608261649290" duration="612000" />
+      <workItem from="1608355772344" duration="2189000" />
+      <workItem from="1608513759901" duration="33000" />
+      <workItem from="1608642942743" duration="1400000" />
+      <workItem from="1608645196322" duration="5000" />
+      <workItem from="1609250750670" duration="1542000" />
+      <workItem from="1610258113261" duration="330000" />
+      <workItem from="1610259141548" duration="601000" />
+      <workItem from="1610328415665" duration="80000" />
+      <workItem from="1614260510042" duration="99000" />
+      <workItem from="1614260612539" duration="1982000" />
+      <workItem from="1614498965956" duration="4855000" />
+      <workItem from="1614513530249" duration="1773000" />
+      <workItem from="1614561249950" duration="90000" />
+      <workItem from="1614653989787" duration="1389000" />
+      <workItem from="1614865821433" duration="1891000" />
+      <workItem from="1614950559689" duration="1216000" />
+      <workItem from="1614996483922" duration="734000" />
+      <workItem from="1615087311175" duration="8501000" />
+      <workItem from="1615165512962" duration="28000" />
+      <workItem from="1615180736318" duration="2673000" />
+      <workItem from="1615361693927" duration="1942000" />
+      <workItem from="1615380444008" duration="4298000" />
+      <workItem from="1615421376107" duration="3410000" />
+      <workItem from="1615463184376" duration="6023000" />
+      <workItem from="1615511594262" duration="116000" />
+      <workItem from="1615517613288" duration="1535000" />
+      <workItem from="1615604111417" duration="762000" />
+      <workItem from="1615636958470" duration="3361000" />
+      <workItem from="1615693545165" duration="11340000" />
+      <workItem from="1615762593982" duration="3179000" />
+      <workItem from="1616110584287" duration="2531000" />
+      <workItem from="1616124237376" duration="4467000" />
+      <workItem from="1616144587662" duration="1745000" />
+      <workItem from="1616330261224" duration="1925000" />
+      <workItem from="1616334317916" duration="2419000" />
+      <workItem from="1616413611284" duration="4279000" />
+      <workItem from="1616463255995" duration="10873000" />
+      <workItem from="1616635142675" duration="5153000" />
+      <workItem from="1616902631552" duration="4033000" />
+      <workItem from="1616975173532" duration="1360000" />
+      <workItem from="1617159795506" duration="652000" />
+      <workItem from="1617269827791" duration="4665000" />
+      <workItem from="1617284478234" duration="3094000" />
+      <workItem from="1617327317658" duration="275000" />
+      <workItem from="1617351279221" duration="2192000" />
+      <workItem from="1617416023488" duration="9401000" />
+      <workItem from="1617517267687" duration="4306000" />
+      <workItem from="1617576877640" duration="8120000" />
+      <workItem from="1617671727416" duration="9330000" />
+      <workItem from="1617852713059" duration="997000" />
+      <workItem from="1617930467554" duration="712000" />
+      <workItem from="1618112664116" duration="1079000" />
+      <workItem from="1618294780845" duration="9283000" />
+      <workItem from="1618363840719" duration="192000" />
+      <workItem from="1618364122411" duration="5836000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/concurrent/ConcurrentHashMap.java</url>
+          <line>1010</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

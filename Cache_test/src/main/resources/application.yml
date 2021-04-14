@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: jdbc:mysql://172.17.21.174:3306/ccms_eskechers?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC&useSSL=true
+    username: u_admin
+    password: twpfbfZ33R
+    driver-class-name: com.mysql.cj.jdbc.Driver
