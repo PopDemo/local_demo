@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb2b6a8f-fb45-49bd-9e70-e71a64fb1a96" name="Default Changelist" comment="" />
+    <list default="true" id="fb2b6a8f-fb45-49bd-9e70-e71a64fb1a96" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_demo/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StreamDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/to_mix_mobile/src/main/java/com/example/demo/ToMixMobileApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/to_mix_mobile/src/main/java/com/example/demo/ToMixMobileApplication.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +28,14 @@
         <option value="spring-beans.schema" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -40,6 +57,7 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="1fLHqddE5bIlyd0KabLGXzBbqAP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
@@ -49,6 +67,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -64,7 +83,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -248,7 +267,9 @@
       <workItem from="1618112664116" duration="1079000" />
       <workItem from="1618294780845" duration="9283000" />
       <workItem from="1618363840719" duration="192000" />
-      <workItem from="1618364122411" duration="5836000" />
+      <workItem from="1618364122411" duration="7838000" />
+      <workItem from="1618455531334" duration="46000" />
+      <workItem from="1618481782107" duration="336000" />
     </task>
     <servers />
   </component>

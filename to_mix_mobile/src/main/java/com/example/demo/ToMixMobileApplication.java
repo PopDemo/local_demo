@@ -7,7 +7,7 @@ import org.apache.commons.codec.digest.DigestUtils;
 import org.mybatis.spring.annotation.MapperScan;
 import java.util.Scanner;
 
-@SpringBootApplication()
+@SpringBootApplication
 @MapperScan("com.example.demo")
 public class ToMixMobileApplication implements CommandLineRunner {
 

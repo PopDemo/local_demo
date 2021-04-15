@@ -24,8 +24,7 @@ public class StreamDemo {
 
 
         // 初始化
-        Instant instant = json.getDate("customDate2").toInstant();
-        LocalDateTime time = LocalDateTime.ofInstant(instant, ZoneId.of("GMT+00:00"));
+        Instant instant = json.getDate("customDate2").toInstant();LocalDateTime time = LocalDateTime.ofInstant(instant, ZoneId.of("GMT+00:00"));
         log.info("json GetDate To thisDate:{}",DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss").format(time));
 
 
