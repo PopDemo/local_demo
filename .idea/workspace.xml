@@ -5,14 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb2b6a8f-fb45-49bd-9e70-e71a64fb1a96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buffered_reader_file_demo/src/main/java/com/example/demo/getcsvsput/Handle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buffered_reader_file_demo/src/main/java/com/example/demo/getcsvsput/dto/MemberInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buffered_reader_file_demo/src/main/java/com/example/demo/result.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buffered_reader_file_demo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buffered_reader_file_demo/src/main/resources/log/result.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_demo/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StreamDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/to_mix_mobile/src/main/java/com/example/demo/ToMixMobileApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/to_mix_mobile/src/main/java/com/example/demo/ToMixMobileApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buffered_reader_file_demo/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buffered_reader_file_demo/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buffered_reader_file_demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/buffered_reader_file_demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buffered_reader_file_demo/src/main/java/com/example/demo/BufferedReaderFileDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/buffered_reader_file_demo/src/main/java/com/example/demo/BufferedReaderFileDemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buffered_reader_file_demo/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buffered_reader_file_demo/src/test/java/com/example/demo/BufferedReaderFileDemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/buffered_reader_file_demo/src/test/java/com/example/demo/BufferedReaderFileDemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_demo/src/main/java/com/example/demo/MybatisDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_demo/src/main/java/com/example/demo/MybatisDemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_demo/src/main/java/com/example/demo/controller/ProductResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_demo/src/main/java/com/example/demo/controller/ProductResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_demo/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +32,8 @@
       <list>
         <option value="Interface" />
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -71,7 +79,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/exier-customized-packages" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -90,10 +98,11 @@
       <recent name="cn.redis.adapter.Cache" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="A:\ShuyunWork\Word_CodeResp\WorkDemo\buffered_reader_file_demo\src\main\resources" />
+      <recent name="A:\ShuyunWork\Word_CodeResp\WorkDemo\buffered_reader_file_demo\src\main\resources\log" />
+      <recent name="A:\ShuyunWork\Word_CodeResp\WorkDemo\buffered_reader_file_demo\src\main\java\com\example\demo" />
       <recent name="A:\ShuyunWork\Word_CodeResp\WorkDemo" />
       <recent name="A:\ShuyunWork\Word_CodeResp\WorkDemo\src\main\java\cn\combination\mode\vo" />
-      <recent name="A:\ShuyunWork\Word_CodeResp\WorkDemo\src\main\java\cn\coupon\factory\CouponService" />
-      <recent name="A:\ShuyunWork\Word_CodeResp\WorkDemo\src\test\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.demo.controller" />
@@ -110,13 +119,13 @@
       <command value="SpringDemoApplication" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.StreamDemo">
-    <configuration name="LocalTestApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.lazy.local.local_test.LocalTestApplication" />
-      <module name="Cache_test" />
+  <component name="RunManager" selected="Application.BufferedReaderFileDemoApplication">
+    <configuration name="BufferedReaderFileDemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.BufferedReaderFileDemoApplication" />
+      <module name="buffered_reader_file_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.lazy.local.local_test.*" />
+          <option name="PATTERN" value="com.example.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,9 +133,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringDemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.SpringDemoApplication" />
-      <module name="spring_demo" />
+    <configuration name="MybatisDemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.MybatisDemoApplication" />
+      <module name="mybatis_demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.demo.*" />
@@ -157,20 +166,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test" />
-      <module name="WorkDemo" />
+    <configuration name="BufferedReaderFileDemoApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="buffered_reader_file_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.BufferedReaderFileDemoApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BufferedReaderFileDemoApplication" />
+        <item itemvalue="Application.MybatisDemoApplication" />
+        <item itemvalue="JUnit.BufferedReaderFileDemoApplicationTests.contextLoads" />
         <item itemvalue="Application.StreamDemo" />
         <item itemvalue="Application.ToMixMobileApplication" />
-        <item itemvalue="Application.test" />
-        <item itemvalue="Application.SpringDemoApplication" />
-        <item itemvalue="Application.LocalTestApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -269,12 +287,45 @@
       <workItem from="1618363840719" duration="192000" />
       <workItem from="1618364122411" duration="7838000" />
       <workItem from="1618455531334" duration="46000" />
-      <workItem from="1618481782107" duration="336000" />
+      <workItem from="1618481782107" duration="1680000" />
+      <workItem from="1618493751891" duration="2489000" />
+      <workItem from="1618537851446" duration="13581000" />
     </task>
+    <task id="LOCAL-00001" summary="fix:add File Handel idea">
+      <created>1618482319188</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1618482319188</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix:add File Handel idea">
+      <created>1618482350807</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1618482350807</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix:add File Handel idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix:add File Handel idea" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
