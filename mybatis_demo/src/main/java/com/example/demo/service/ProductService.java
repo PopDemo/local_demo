@@ -5,9 +5,11 @@ import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 
+import java.util.List;
+
 @Mapper
 public interface ProductService {
 
-    @Select("select * from product where id=#{pid}")
-    ProductDTO queryById(@Param("pid") String pid);
+    @Select("select * from product")
+    List<ProductDTO> queryById(@Param("pid") String pid);
 }

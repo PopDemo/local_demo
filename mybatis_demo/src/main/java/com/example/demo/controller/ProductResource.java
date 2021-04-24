@@ -6,6 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.List;
+
 @RestController("/product")
 public class ProductResource {
 
@@ -14,7 +16,7 @@ public class ProductResource {
     private ProductService productService;
 
     @PostMapping("/get")
-    public ProductDTO queryById(String pid){
+    public List<ProductDTO> queryById(String pid){
         return productService.queryById(pid);
     }
 

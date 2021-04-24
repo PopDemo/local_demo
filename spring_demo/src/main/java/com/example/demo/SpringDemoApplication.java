@@ -19,5 +19,6 @@ public class SpringDemoApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		log.info("Spring ApplictionContext启动成功");
+		awareApplication.getBean(awareApplication.class);
 	}
 }
