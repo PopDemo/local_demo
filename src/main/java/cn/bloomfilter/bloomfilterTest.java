@@ -2,15 +2,15 @@ package cn.bloomfilter;
 
 import com.google.common.hash.BloomFilter;
 import com.google.common.hash.Funnels;
-import lombok.extern.slf4j.Slf4j;
-@Slf4j
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class bloomfilterTest {
 
 
     private static int total = 1000000;
     private static BloomFilter<Integer> bf = BloomFilter.create(Funnels.integerFunnel(), total);
-
-
+    private static Logger log = LoggerFactory.getLogger(bloomfilterTest.class);
     public static void main(String[] args) {
 
         // 初始化1000000条数据到过滤器中

@@ -19,6 +19,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Cache_test" target="1.8" />
+      <module name="springboot_localtest" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -30,6 +31,7 @@
       <module name="mybatis_demo" options="-parameters" />
       <module name="redis_test" options="-parameters" />
       <module name="spring_demo" options="-parameters" />
+      <module name="springboot_localtest" options="-parameters" />
       <module name="to_mix_mobile" options="-parameters" />
     </option>
   </component>
