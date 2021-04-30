@@ -5,20 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb2b6a8f-fb45-49bd-9e70-e71a64fb1a96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mybatis_demo/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_demo/src/main/java/com/example/demo/util/BasePageSupper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_demo/src/main/java/com/example/demo/util/MybatisPageHelperConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_demo/src/main/java/com/example/demo/util/awareApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_demo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka_demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka_demo/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka_demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka_demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka_demo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka_demo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka_demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka_demo/src/main/java/cn/demo/KafkaDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka_demo/src/main/java/cn/demo/config/KafkaConsumerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka_demo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka_demo/src/test/java/cn/demo/KafkaDemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_demo/src/main/java/com/example/demo/dto/ProductMetasDataDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_demo/src/main/java/com/example/demo/service/ProductMetasDataService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_demo/src/main/java/com/example/demo/vo/ProductMasterData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_demo/src/main/resources/sqlmapper/ProductMetasMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DtoClass/EzrBaseResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WorkDemo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/date_to_date0-8/date_to_date0-8.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis_demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_demo/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis_demo/src/main/java/com/example/demo/MybatisDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_demo/src/main/java/com/example/demo/MybatisDemoApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis_demo/src/main/java/com/example/demo/controller/ProductResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_demo/src/main/java/com/example/demo/controller/ProductResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_demo/src/main/java/com/example/demo/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_demo/src/main/java/com/example/demo/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_demo/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_demo/src/main/java/com/example/demo/SpringDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_demo/src/main/java/com/example/demo/SpringDemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_demo/target/classes/com/example/demo/SpringDemoApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_demo/target/classes/com/example/demo/SpringDemoApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_demo/target/classes/com/example/demo/aspect/HandleLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_demo/target/classes/com/example/demo/aspect/HandleLogger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_demo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_demo/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_demo/spring_demo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StreamDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestSteams.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +95,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis_demo/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -90,28 +107,32 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="cn.redis.adapter.Cache" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="A:\ShuyunWork\Word_CodeResp\WorkDemo\mybatis_demo\src\main\resources\sqlmapper" />
       <recent name="A:\ShuyunWork\Word_CodeResp\WorkDemo\mybatis_demo\src\main\resources" />
       <recent name="A:\ShuyunWork\Word_CodeResp\WorkDemo\mybatis_demo" />
       <recent name="A:\ShuyunWork\Word_CodeResp\WorkDemo\src\main\resources" />
       <recent name="A:\ShuyunWork\Word_CodeResp\WorkDemo\buffered_reader_file_demo\src\main\resources" />
-      <recent name="A:\ShuyunWork\Word_CodeResp\WorkDemo\buffered_reader_file_demo\src\main\resources\log" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="A:\ShuyunWork\Word_CodeResp\WorkDemo\mybatis_demo\src\main\resources" />
+      <recent name="A:\ShuyunWork\Word_CodeResp\WorkDemo\mybatis_demo\src\main\java\com\example\demo\vo" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.demo.controller" />
+      <recent name="DtoClass" />
       <recent name="com.example.demo.util" />
       <recent name="cn" />
       <recent name="util" />
-      <recent name="com.example.demo.entity" />
-      <recent name="com.example.demo.controller" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -121,10 +142,10 @@
       <command value="SpringDemoApplication" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.SpringDemoApplication (1)">
-    <configuration name="BufferedReaderFileDemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.BufferedReaderFileDemoApplication" />
-      <module name="buffered_reader_file_demo" />
+  <component name="RunManager" selected="Application.PatternDemo">
+    <configuration name="MybatisDemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.MybatisDemoApplication" />
+      <module name="mybatis_demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.demo.*" />
@@ -135,15 +156,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisDemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.MybatisDemoApplication" />
-      <module name="mybatis_demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="PatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PatternDemo" />
+      <module name="WorkDemo" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -174,29 +189,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DateToDate08ApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="date_to_date0-8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.DateToDate08ApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="TestSteams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestSteams" />
+      <module name="WorkDemo" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SpringDemoApplication (1)" />
+        <item itemvalue="Application.PatternDemo" />
         <item itemvalue="Application.MybatisDemoApplication" />
+        <item itemvalue="Application.TestSteams" />
+        <item itemvalue="Application.SpringDemoApplication (1)" />
         <item itemvalue="Application.SpringDemoApplication" />
-        <item itemvalue="JUnit.DateToDate08ApplicationTests.contextLoads" />
-        <item itemvalue="Application.BufferedReaderFileDemoApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -303,7 +309,12 @@
       <workItem from="1618795218086" duration="10092000" />
       <workItem from="1619077370849" duration="1386000" />
       <workItem from="1619172359345" duration="1825000" />
-      <workItem from="1619238627762" duration="9940000" />
+      <workItem from="1619238627762" duration="10472000" />
+      <workItem from="1619314315550" duration="1221000" />
+      <workItem from="1619430544152" duration="1516000" />
+      <workItem from="1619491655591" duration="3026000" />
+      <workItem from="1619513950393" duration="11747000" />
+      <workItem from="1619751765516" duration="5171000" />
     </task>
     <task id="LOCAL-00001" summary="fix:add File Handel idea">
       <created>1618482319188</created>
@@ -340,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619238691618</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix:添加Mybatis的PageHelper的分页使用">
+      <created>1619269218219</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1619269218219</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,7 +381,8 @@
     <MESSAGE value="fix:新增GetFile处理文件，并进行导出" />
     <MESSAGE value="fix:新增时间转换andjdk1.8新特性的联系" />
     <MESSAGE value="fix:添加mybatis Springboot demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix:添加mybatis Springboot demo" />
+    <MESSAGE value="fix:添加Mybatis的PageHelper的分页使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix:添加Mybatis的PageHelper的分页使用" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

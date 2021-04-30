@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-@RestController("/product")
+@RestController("/get")
 public class ProductResource {
 
 
@@ -19,6 +19,9 @@ public class ProductResource {
     public List<ProductDTO> queryById(String pid){
         return productService.queryById(pid);
     }
+
+
+
 
 
 

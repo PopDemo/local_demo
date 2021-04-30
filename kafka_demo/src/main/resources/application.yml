@@ -1,0 +1,11 @@
+kafka:
+  producer:
+    enable: true
+    servers: ip:端口（这里是你自己的kafkai Ip和端口）
+    retries: 10
+  consumer:
+    enable: true
+    enableAutoCommit: true
+    groupId: service-group
+    servers: ip:端口
+    loyaltyServers: ip:端口

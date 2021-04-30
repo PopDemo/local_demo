@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/buffered_reader_file_demo/pom.xml" />
         <option value="$PROJECT_DIR$/date_to_date0-8/pom.xml" />
         <option value="$PROJECT_DIR$/jdk1_8new/pom.xml" />
+        <option value="$PROJECT_DIR$/kafka_demo/pom.xml" />
       </list>
     </option>
   </component>
