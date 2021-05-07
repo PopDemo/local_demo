@@ -5,11 +5,15 @@ import DtoClass.DemoClass;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import org.apache.commons.lang.ObjectUtils;
+import org.apache.commons.lang.SystemUtils;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.text.DecimalFormat;
+import java.time.Instant;
+import java.time.LocalDate;
 import java.util.*;
+import java.util.concurrent.atomic.AtomicLong;
 import java.util.stream.Collectors;
 
 /**
@@ -26,7 +30,7 @@ public class TestSteams {
 
 
 
-    public static void main(String[] args) {
+//    public static void main(String[] args) {
 //        List list = new ArrayList();
 //        list.add(222);
 //        list.add(12);
@@ -73,23 +77,45 @@ public class TestSteams {
          * 2.伪代码模仿从db中查找出来的数据
          * 3.返回的是list
          */
-        DemoClass demo = null;
+//        DemoClass demo = null;
+//
+//
+//
+//        demo.setDemos("0");
+//        demo.setDemos1("1");
+//        demo.setDemos2("2");
+//
+//        List<DemoClass> list = new ArrayList<>();
+//        list.add(demo);
+//
+//
+//        // 我们将查询出来的list转换为实体类型
+//        DemoClass queryDemo = list.get(0);
+//
+//
+//        System.out.println(queryDemo.getDemos());
+
+//    }
+
+    public static synchronized String genUniqueKey(){
+
+        Random random = new Random(7);
+
+        Integer number = random.nextInt(900000) + 100000;
+
+        return (System.currentTimeMillis() + String.valueOf(number));
+    }
+
+    public static void main(String[] args) {
+        String uniqueKey = genUniqueKey();
+        System.out.println(uniqueKey);
+
+        AtomicLong nowSyn = new AtomicLong();
+        nowSyn.getAndAdd(System.currentTimeMillis());
 
 
 
-        demo.setDemos("0");
-        demo.setDemos1("1");
-        demo.setDemos2("2");
 
-        List<DemoClass> list = new ArrayList<>();
-        list.add(demo);
-
-
-        // 我们将查询出来的list转换为实体类型
-        DemoClass queryDemo = list.get(0);
-
-
-        System.out.println(queryDemo.getDemos());
 
     }
 

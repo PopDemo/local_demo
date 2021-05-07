@@ -1,11 +1,12 @@
 kafka:
   producer:
     enable: true
-    servers: ip:端口（这里是你自己的kafkai Ip和端口）
+    servers: ${kafka.address:'192.168.68.115:9092'}
     retries: 10
+  #  消费端估计都用不上
   consumer:
     enable: true
     enableAutoCommit: true
-    groupId: service-group
-    servers: ip:端口
-    loyaltyServers: ip:端口
+    groupId: youzan-customized-service-group
+    servers: ${kafka.address:'192.168.68.115:9092'}
+    loyaltyServers: ${kafka.address:'192.168.68.115:9092'}
