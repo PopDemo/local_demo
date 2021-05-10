@@ -5,25 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb2b6a8f-fb45-49bd-9e70-e71a64fb1a96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kafka_demo/src/main/java/cn/demo/config/KafkaProduceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka_demo/src/main/java/cn/demo/config/propertiesTO/KafkaConsumerProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka_demo/src/main/java/cn/demo/config/propertiesTO/KafkaProducerProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka_demo/src/main/java/cn/demo/service/ConsumerTestService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka_demo/src/main/java/cn/demo/service/ProduceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka_demo/src/main/java/cn/demo/support/TopicEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snowflake/src/main/java/com/example/demo/support/SnowFlake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snowflake/src/main/java/com/example/demo/support/SnowFlakeEnableCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PrintLetter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka_demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka_demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka_demo/src/main/java/cn/demo/KafkaDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka_demo/src/main/java/cn/demo/KafkaDemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka_demo/src/main/java/cn/demo/config/KafkaConsumerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka_demo/src/main/java/cn/demo/config/KafkaConsumerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka_demo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka_demo/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snowflake/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/snowflake/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snowflake/src/main/java/com/example/demo/SnowflakeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/snowflake/src/main/java/com/example/demo/SnowflakeApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestSteams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSteams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/design/adapter/to/RebateInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/design/adapter/to/RebateInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/design/adapter/vo/OrderMQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/design/adapter/vo/OrderMQ.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/design/adapter/vo/POPOrderDelivered.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/design/adapter/vo/POPOrderDelivered.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/design/adapter/vo/create_account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/design/adapter/vo/create_account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StreamDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StreamDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +24,8 @@
         <option value="Interface" />
         <option value="FxmlFile" />
         <option value="spring-beans.schema" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -70,7 +58,9 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="1fLHqddE5bIlyd0KabLGXzBbqAP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
@@ -78,13 +68,14 @@
     <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/kafka_demo/src/main/java/cn/demo/config" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/snowflake/src/main/java/com/example/demo/support" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -104,11 +95,11 @@
       <recent name="cn.redis.adapter.Cache" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="A:\ShuyunWork\Word_CodeResp\WorkDemo\snowflake\src\main\java\com\example\demo\support" />
       <recent name="A:\ShuyunWork\Word_CodeResp\WorkDemo\kafka_demo\src\main\java\cn\demo\config" />
       <recent name="A:\ShuyunWork\Word_CodeResp\WorkDemo\mybatis_demo\src\main\resources\sqlmapper" />
       <recent name="A:\ShuyunWork\Word_CodeResp\WorkDemo\mybatis_demo\src\main\resources" />
       <recent name="A:\ShuyunWork\Word_CodeResp\WorkDemo\mybatis_demo" />
-      <recent name="A:\ShuyunWork\Word_CodeResp\WorkDemo\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="A:\ShuyunWork\Word_CodeResp\WorkDemo\mybatis_demo\src\main\resources" />
@@ -132,7 +123,7 @@
       <command value="SpringDemoApplication" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestSteams">
+  <component name="RunManager" selected="Application.SnowflakeApplication">
     <configuration name="KafkaDemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.demo.KafkaDemoApplication" />
       <module name="kafka_demo" />
@@ -146,12 +137,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisDemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.MybatisDemoApplication" />
-      <module name="mybatis_demo" />
+    <configuration name="PrintLetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrintLetter" />
+      <module name="WorkDemo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SnowFlake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.support.SnowFlake" />
+      <module name="snowflake" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="PATTERN" value="com.example.demo.support.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,16 +157,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PatternDemo" />
-      <module name="WorkDemo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringDemoApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.SpringDemoApplication" />
-      <module name="spring_demo" />
+    <configuration name="SnowflakeApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.SnowflakeApplication" />
+      <module name="snowflake" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.demo.*" />
@@ -188,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SnowflakeApplication" />
+        <item itemvalue="Application.PrintLetter" />
         <item itemvalue="Application.TestSteams" />
+        <item itemvalue="Application.SnowFlake" />
         <item itemvalue="Application.KafkaDemoApplication" />
-        <item itemvalue="Application.PatternDemo" />
-        <item itemvalue="Application.MybatisDemoApplication" />
-        <item itemvalue="Application.SpringDemoApplication (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -307,7 +298,8 @@
       <workItem from="1619751765516" duration="5355000" />
       <workItem from="1619765168534" duration="620000" />
       <workItem from="1619920165867" duration="10006000" />
-      <workItem from="1620355045936" duration="3328000" />
+      <workItem from="1620355045936" duration="20294000" />
+      <workItem from="1620600697781" duration="1864000" />
     </task>
     <task id="LOCAL-00001" summary="fix:add File Handel idea">
       <created>1618482319188</created>
@@ -358,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619763282214</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fix:添加kafka相关kafkaTemplate配置和文件读取test类;添加雪花算法demo">
+      <created>1620368219258</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1620368219258</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,28 +376,21 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="fix:add File Handel idea" />
     <MESSAGE value="fix:新增GetFile处理文件，并进行导出" />
     <MESSAGE value="fix:新增时间转换andjdk1.8新特性的联系" />
     <MESSAGE value="fix:添加mybatis Springboot demo" />
     <MESSAGE value="fix:添加Mybatis的PageHelper的分页使用" />
     <MESSAGE value="fix:添加kafka相关kafkaTemplate配置和文件读取test类" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix:添加kafka相关kafkaTemplate配置和文件读取test类" />
+    <MESSAGE value="fix:添加kafka相关kafkaTemplate配置和文件读取test类;添加雪花算法demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix:添加kafka相关kafkaTemplate配置和文件读取test类;添加雪花算法demo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/concurrent/ConcurrentHashMap.java</url>
-          <line>1010</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/kafka_demo/src/main/java/cn/demo/config/propertiesTO/KafkaProducerProperties.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="java-exception" />
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
 </project>

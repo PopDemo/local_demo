@@ -6,6 +6,8 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import org.apache.commons.lang.ObjectUtils;
 import org.apache.commons.lang.SystemUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -13,6 +15,7 @@ import java.text.DecimalFormat;
 import java.time.Instant;
 import java.time.LocalDate;
 import java.util.*;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.stream.Collectors;
 
@@ -97,27 +100,135 @@ public class TestSteams {
 
 //    }
 
-    public static synchronized String genUniqueKey(){
+//    public static synchronized String genUniqueKey(){
+//
+//        Random random = new Random(7);
+//
+//        Integer number = random.nextInt(900000) + 100000;
+//
+//        return (System.currentTimeMillis() + String.valueOf(number));
+//    }
+//
+//
+//    private static int totalCount = 0;
+//
+//    public static class Customer{
+//        private int customerID;
+//
+//        public Customer(){
+//            ++totalCount;
+//            customerID = totalCount;
+//            System.out.println("增加一个");
+//        }
+//
+//        public String getCustomerID() {
+//            DecimalFormat decimalFormat = new DecimalFormat("0000000");
+//            return decimalFormat.format(customerID);
+//        }
+//
+//    }
 
-        Random random = new Random(7);
+    private static Logger log = LoggerFactory.getLogger(TestSteams.class);
+        // 开头2位 年
+        private static final String total0_2 =  String.valueOf(LocalDate.now().getYear()).substring(2);
+    // 中间7位 自增列
+    private static AtomicInteger total2_7_Count = new AtomicInteger(0);
+    // 四位暗码 -> 存储
+    private static String total7_11 = "";
+    private static DecimalFormat decimalFormat = new DecimalFormat("0000000");
 
-        Integer number = random.nextInt(900000) + 100000;
 
-        return (System.currentTimeMillis() + String.valueOf(number));
+
+
+
+    /**
+     * 获取纸质券券码
+     * @param prodectId
+     * @return
+     */
+    public static String getCouponId(String prodectId){
+        StringBuffer couponId = new StringBuffer();
+        total2_7_Count.getAndIncrement();
+        couponId.append(total0_2).append(decimalFormat.format(total2_7_Count.get())).append(total7_11);
+        log.warn("生成纸质券券码0-2区间 -> {},2-7区间count+1 -> {},对应prodectId -> {}生成完整券码为 -> {}",total0_2,decimalFormat.format(total2_7_Count.get()),prodectId,couponId.toString());
+        return couponId.toString();
     }
+
 
     public static void main(String[] args) {
-        String uniqueKey = genUniqueKey();
-        System.out.println(uniqueKey);
+//        String uniqueKey = genUniqueKey();
+//        System.out.println(uniqueKey);
+//
+//        AtomicLong nowSyn = new AtomicLong();
+//        nowSyn.getAndAdd(System.currentTimeMillis());
 
-        AtomicLong nowSyn = new AtomicLong();
-        nowSyn.getAndAdd(System.currentTimeMillis());
+//        for (int i = 0; i < 1 << 12; i++) {
+//            Customer customer =  new Customer();
+//            System.out.println(customer.getCustomerID());
+//        }
+//        for (int i = 0; i < 1 << 12; i++) {
+//            log.info(TestSteams.getCouponId("001"));
+//        }
 
 
+//        DecimalFormat decimalFormat4 = new DecimalFormat("0000");
+//
+//        String num = "21";
+//
+//        log.info(decimalFormat4.format(Integer.valueOf(num)));
 
+
+//
+//        System.out.print("{");
+//        for (int i=0;i<=26;i++) {
+//
+//            System.out.print("\""+randomNum01+"\":"+"\""+String.valueOf((char)(Lower+i))+"\",");
+//            System.out.print("\""+randomNum02+"\":"+"\""+String.valueOf((char)(Upper+i))+"\",");
+//
+//        }
+//        System.out.print("}");
+
+
+        Map<String,String> ascll_Num = new HashMap<>();
+
+        char Lower = 'a';
+        char Upper = 'A';
+
+        for (int i = 10; i < 30; i++) {
+            System.out.println(i);
+            ascll_Num.put(String.valueOf(i), String.valueOf((char)(Lower+i)));
+            if (i > 24) return;
+        }
+        log.info("map:{}",ascll_Num.size());
+        System.out.println(ascll_Num.size());
+
+        for (int j = 40; j < 70; j++) {
+
+            ascll_Num.put(String.valueOf(j), String.valueOf((char)(Upper+j)));
+            if (j > 24) return;
+        }
+
+        log.info("map:{}",ascll_Num.size());
 
 
     }
+
+    public void printLowerCase () {
+        char c = 'a';
+        for (int i=0;i<26;i++) {
+            System.out.print((char)(c+i)+" ");
+        }
+    }
+
+    public void printUpperCase () {
+        char c = 'A';
+        for (int i=0;i<26;i++) {
+            System.out.print((char)(c+i)+" ");
+        }
+    }
+
+
+
 
 
 }
