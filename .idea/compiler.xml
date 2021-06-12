@@ -10,6 +10,7 @@
         <module name="redis_test" />
         <module name="date_to_date0-8" />
         <module name="snowflake" />
+        <module name="java_test" />
         <module name="WorkDemo" />
         <module name="buffered_reader_file_demo" />
         <module name="spring_demo" />
@@ -17,6 +18,7 @@
         <module name="mybatis_demo" />
         <module name="jdk1_8new" />
         <module name="kafka_demo" />
+        <module name="springaop_logout" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -29,12 +31,14 @@
       <module name="Cache_test" options="-parameters" />
       <module name="buffered_reader_file_demo" options="-parameters" />
       <module name="date_to_date0-8" options="-parameters" />
+      <module name="java_test" options="-parameters" />
       <module name="jdk1_8new" options="-parameters" />
       <module name="kafka_demo" options="-parameters" />
       <module name="mybatis_demo" options="-parameters" />
       <module name="redis_test" options="-parameters" />
       <module name="snowflake" options="-parameters" />
       <module name="spring_demo" options="-parameters" />
+      <module name="springaop_logout" options="-parameters" />
       <module name="springboot_localtest" options="-parameters" />
       <module name="to_mix_mobile" options="-parameters" />
     </option>

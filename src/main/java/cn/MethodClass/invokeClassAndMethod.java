@@ -2,13 +2,33 @@ package cn.MethodClass;
 
 import com.sun.org.apache.xpath.internal.operations.Or;
 import org.junit.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import sun.management.MethodInfo;
 
 import java.lang.reflect.Method;
 
 public class invokeClassAndMethod {
+    /**
+     * java反射三种方式进行处理
+     *  1. Class.forName
+     *         Class<?> dogClass = Class.forName("com.example.demo.dto.Dog");
+     *         Method method = dogClass.getDeclaredMethod("dogToString",String.class,String.class,String.class,String.class);
+     *         method.setAccessible(true);
+     *         String outMsg = (String) method.invoke(dogClass.newInstance(),"美乐","1.7","2","borck");
+     *         System.out.println(outMsg);
+     *  2. object.getClass
+     *         public void getMethod(Object object){
+     *             Object objectClass = object.class();
+     *         }
+     *  3. 被反射类.class
+     *         public void getMethod(Dog dog){
+     *             Object dogClass = dog.class();
+     *         }
+     */
 
 
+    Logger log = LoggerFactory.getLogger("Test invoke main");
 
   class Cat{
 
@@ -17,6 +37,7 @@ public class invokeClassAndMethod {
       }
 
       public void sumToParamtites(String name,Integer sums){
+          System.out.println("method out input SUCCESS");
           System.out.println("i like jingjing and name="+name+"  sums="+sums);
       }
 
@@ -27,6 +48,7 @@ public class invokeClassAndMethod {
   class Jjing extends Cat{
       @Override
       public void sum() {
+
           super.sum();
           System.out.println("i name is catAndJjing");
       }

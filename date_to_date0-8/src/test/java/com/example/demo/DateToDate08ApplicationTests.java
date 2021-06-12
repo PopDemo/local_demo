@@ -18,6 +18,20 @@ class DateToDate08ApplicationTests {
 				.withZoneSameInstant(ZoneId.of("GMT"));
 		String formattedScanTime = scanTime.format(outputDtf);
 		System.out.println(formattedScanTime);
+
+
+		dateTimeTo8("2020-01-21 16:00:00");
+
+	}
+
+
+	public static String dateTimeTo8(String date){
+		ZonedDateTime scanTime = LocalDateTime.parse(date, inputDtf).atZone(ZoneId.systemDefault())
+				.withZoneSameInstant(ZoneId.of("GMT"));
+		String formattedScanTime = scanTime.format(outputDtf);
+		System.out.println(formattedScanTime);
+
+		return formattedScanTime;
 	}
 
 }

@@ -189,26 +189,65 @@ public class TestSteams {
 //        System.out.print("}");
 
 
-        Map<String,String> ascll_Num = new HashMap<>();
+//        Map<String,String> ascll_Num = new HashMap<>();
+//
+//        char Lower = 'a';
+//        char Upper = 'A';
+//
+//        for (int i = 10; i < 30; i++) {
+//            System.out.println(i);
+//            ascll_Num.put(String.valueOf(i), String.valueOf((char)(Lower+i)));
+//            if (i > 24) return;
+//        }
+//        log.info("map:{}",ascll_Num.size());
+//        System.out.println(ascll_Num.size());
+//
+//        for (int j = 40; j < 70; j++) {
+//
+//            ascll_Num.put(String.valueOf(j), String.valueOf((char)(Upper+j)));
+//            if (j > 24) return;
+//        }
+//
+//        log.info("map:{}",ascll_Num.size());
 
-        char Lower = 'a';
-        char Upper = 'A';
+        String coupon = "210099830I400";
 
-        for (int i = 10; i < 30; i++) {
-            System.out.println(i);
-            ascll_Num.put(String.valueOf(i), String.valueOf((char)(Lower+i)));
-            if (i > 24) return;
+//        coupon = coupon.substring(0,coupon.length()-4);
+//        coupon = new StringBuffer(coupon).append("****").toString();
+//        log.info(coupon);
+
+//        log.info(coupon.substring(0,9));
+//
+//        HashMap<String,Object> thisMap = new HashMap<>();
+//        thisMap.put()
+//
+//        coupon.hashCode();
+
+        /*但是在实际应用中，该方法不能满足的我们的需求。
+        因为我们认为两个对象即使不是指向的同一块内存，只要这两个对象的各个字段属性值都相同，那么就认为这两个对象是同一个对象。
+        所以就需要重写equals（）方法，即如果两个对象指向内存地址相同或者两个对象各个字段值相同，那么就是同一个对象。*/
+//        coupon.equals()
+
+//        for (int i = 10; i < 30; i++) {
+//            System.out.println(i);
+//            ascll_Num.put(String.valueOf(i), String.valueOf((char)(Lower+i)));
+//            if (i > 24) return;
+//        }
+//
+//        AtomicInteger atomicInteger = new AtomicInteger(0);
+//        atomicInteger.getAndIncrement();
+
+
+
+        for (int i=1;i<5;i++){
+            log.info("111");
         }
-        log.info("map:{}",ascll_Num.size());
-        System.out.println(ascll_Num.size());
 
-        for (int j = 40; j < 70; j++) {
 
-            ascll_Num.put(String.valueOf(j), String.valueOf((char)(Upper+j)));
-            if (j > 24) return;
-        }
 
-        log.info("map:{}",ascll_Num.size());
+
+
+
 
 
     }
