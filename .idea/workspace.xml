@@ -5,13 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb2b6a8f-fb45-49bd-9e70-e71a64fb1a96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java_test/src/main/java/cn/local/dto/ResponseSupportDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_test/src/main/java/cn/local/dto/Tomcat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_test/src/main/java/cn/local/support/ResponseExcuteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/work_excute/demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work_demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work_demo/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work_demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work_demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work_demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work_demo/src/main/java/cn/local/work/WorkDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work_demo/src/main/java/cn/local/work/service/ExcuteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work_demo/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java_test/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_test/src/main/java/cn/local/JavaTestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_test/src/main/java/cn/local/JavaTestApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_test/src/main/java/cn/local/service/ExcuteService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdk1_8new/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jdk1_8new/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/MethodClass/invokeClassAndMethod$Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/MethodClass/invokeClassAndMethod$Cat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/MethodClass/invokeClassAndMethod$Jjing.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/MethodClass/invokeClassAndMethod$Jjing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/MethodClass/invokeClassAndMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/MethodClass/invokeClassAndMethod.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +91,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/snowflake/src/main/java/com/example/demo/support" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/work_demo/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -102,11 +112,11 @@
       <recent name="cn.redis.adapter.Cache" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="A:\ShuyunWork\Word_CodeResp\WorkDemo\work_demo\src\main\resources" />
       <recent name="A:\ShuyunWork\Word_CodeResp\WorkDemo\snowflake\src\main\java\com\example\demo\support" />
       <recent name="A:\ShuyunWork\Word_CodeResp\WorkDemo\kafka_demo\src\main\java\cn\demo\config" />
       <recent name="A:\ShuyunWork\Word_CodeResp\WorkDemo\mybatis_demo\src\main\resources\sqlmapper" />
       <recent name="A:\ShuyunWork\Word_CodeResp\WorkDemo\mybatis_demo\src\main\resources" />
-      <recent name="A:\ShuyunWork\Word_CodeResp\WorkDemo\mybatis_demo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="A:\ShuyunWork\Word_CodeResp\WorkDemo\mybatis_demo\src\main\resources" />
@@ -138,7 +148,7 @@
       <command value="SpringDemoApplication" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.JavaTestApplication">
+  <component name="RunManager" selected="Application.WorkDemoApplication">
     <configuration name="JavaTestApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.local.JavaTestApplication" />
       <module name="java_test" />
@@ -165,6 +175,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WorkDemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.local.work.WorkDemoApplication" />
+      <module name="work_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.local.work.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="excuteService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.demo.excute.excuteService" />
       <module name="jdk1_8new" />
@@ -178,43 +201,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="invokeClassAndMethod (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="demo.excuteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WorkDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.MethodClass.*" />
+          <option name="PATTERN" value="work_excute.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.MethodClass" />
-      <option name="MAIN_CLASS_NAME" value="cn.MethodClass.invokeClassAndMethod" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="invokeClassAndMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WorkDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.MethodClass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.MethodClass" />
-      <option name="MAIN_CLASS_NAME" value="cn.MethodClass.invokeClassAndMethod" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="work_excute" />
+      <option name="MAIN_CLASS_NAME" value="work_excute.demo" />
+      <option name="METHOD_NAME" value="excuteTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WorkDemoApplication" />
+        <item itemvalue="JUnit.demo.excuteTest" />
         <item itemvalue="Application.JavaTestApplication" />
         <item itemvalue="Application.SpringDemoApplication" />
         <item itemvalue="Application.excuteService" />
-        <item itemvalue="JUnit.invokeClassAndMethod (1)" />
-        <item itemvalue="JUnit.invokeClassAndMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -344,7 +353,8 @@
       <workItem from="1623224687391" duration="5187000" />
       <workItem from="1623293287623" duration="19418000" />
       <workItem from="1623645687341" duration="1217000" />
-      <workItem from="1623647657144" duration="954000" />
+      <workItem from="1623647657144" duration="7613000" />
+      <workItem from="1623721648325" duration="2094000" />
     </task>
     <task id="LOCAL-00001" summary="fix:add File Handel idea">
       <created>1618482319188</created>
@@ -423,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623646907461</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="fix:新增T">
+      <created>1623648875577</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1623648875578</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,7 +469,8 @@
     <MESSAGE value="fix:添加kafka相关kafkaTemplate配置和文件读取test类;添加雪花算法demo" />
     <MESSAGE value="fix:add demo class" />
     <MESSAGE value="fix:新增" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix:新增" />
+    <MESSAGE value="fix:新增T" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix:新增T" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

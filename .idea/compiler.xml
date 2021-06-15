@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="date_to_date0-8" />
         <module name="snowflake" />
+        <module name="work_demo" />
         <module name="to_mix_mobile" />
         <module name="mybatis_demo" />
         <module name="redis_test" />
@@ -43,6 +44,7 @@
       <module name="springboot_localtest" options="-parameters" />
       <module name="theard_demo" options="-parameters" />
       <module name="to_mix_mobile" options="-parameters" />
+      <module name="work_demo" options="-parameters" />
     </option>
   </component>
 </project>
